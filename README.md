@@ -1,7 +1,7 @@
 # Mr. Computer
 
 ## About
-Code for a MOS 6502 computer I built 
+Code for a MOS 6502 computer I built. Planning drastic changes. 
 
 Memory map:
 * 0000h - 7FFFh RAM
@@ -14,9 +14,6 @@ Memory map:
 
 * _make_ will assemble all seperate bank source files using the xa assembler and concatenate them together
 * _make burn_ allows for using the _minipro_ linux cli to program the eprom 
-
-## Reasons
-I don't want to pay an exorbitant amount of money for a SID chip so the sound of the 2612 is a second best 
 
 ## So Far
 ![image](/images/rat_nest.jpg)
