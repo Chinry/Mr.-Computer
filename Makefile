@@ -14,6 +14,11 @@ bank3.bin:
 	xa -C -l build/bank3.lst -o build/bank3.bin bank3.asm
 
 
+send:
+	xa -C -l build/send.lst -o build/send.bin send.asm
+
+
+
 burn:
 	sudo minipro -p "M27C512@DIP28" -w build/prog.bin
 
