@@ -1,7 +1,7 @@
 # Mr. Computer
 
 ## About
-Code for a MOS 6502 computer I built. Planning drastic changes. 
+Code for a MOS 6502 computer
 
 Memory map:
 * 0000h - 7FFFh RAM
